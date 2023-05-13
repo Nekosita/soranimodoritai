@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{795175f6-785f-484b-a54d-78c851652f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{da7cbbc3-0d00-4947-99f7-b3aeddab8251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Model">
+      <UniqueIdentifier>{546316c3-56c7-4c6a-b97e-119cee432ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shader">
+      <UniqueIdentifier>{5d696349-1998-4302-bbdf-b000ca4c611c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage">
+      <UniqueIdentifier>{0637e959-c0a1-460d-b42e-39e0f30d77c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage\StageBlock">
+      <UniqueIdentifier>{e5a49a5a-00a6-4185-b92e-20bddedad56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage\SlowArea">
+      <UniqueIdentifier>{7cacdb11-f2ba-4f66-92b9-87513b2173a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Stage\TrapArea">
+      <UniqueIdentifier>{a23dd6f6-9177-49b1-8215-b823e38a8fb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Game\Object\Camera.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\AppendFunction.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\プロジェクトに追加すべきファイル_VC用\DxLib.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\KeyInput.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Random.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Main.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Effect.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Vector3.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\SceneRule.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\SceneTitle.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\SceneNowLoading.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Scene\SceneStage.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Ranking.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\UserInterface.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\SoundEffect.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\Model.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\RedGoblin.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\TrapBall.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\Player.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\Item.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\BlockBase.h">
+      <Filter>Game\Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\GameoverArea.h">
+      <Filter>Game\Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\GoalArea.h">
+      <Filter>Game\Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\MapChip.h">
+      <Filter>Game\Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\MoveBlock.h">
+      <Filter>Game\Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Model\ModelBase.h">
+      <Filter>Game\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Base.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Stage\StageBlock\StageBlock.h">
+      <Filter>Game\Object\Stage\StageBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Stage\SlowArea\SlowArea.h">
+      <Filter>Game\Object\Stage\SlowArea</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\Object\Stage\TrapArea\TrapArea.h">
+      <Filter>Game\Object\Stage\TrapArea</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game\Object\Camera.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\AppendFunction.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\KeyInput.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Random.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Effect.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Vector3.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\SceneRule.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\SceneTitle.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\SceneNowLoading.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Scene\SceneStage.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Ranking.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\UserInterface.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\SoundEffect.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Model.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\RedGoblin.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\TrapBall.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Player.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\Item.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\BlockBase.cpp">
+      <Filter>Game\Object\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\GameoverArea.cpp">
+      <Filter>Game\Object\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\GoalArea.cpp">
+      <Filter>Game\Object\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\MapChip.cpp">
+      <Filter>Game\Object\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\MoveBlock.cpp">
+      <Filter>Game\Object\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Model\ModelBase.cpp">
+      <Filter>Game\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Base.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Stage\StageBlock\StageBlock.cpp">
+      <Filter>Game\Object\Stage\StageBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Stage\SlowArea\SlowArea.cpp">
+      <Filter>Game\Object\Stage\SlowArea</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\Object\Stage\TrapArea\TrapArea.cpp">
+      <Filter>Game\Object\Stage\TrapArea</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\Sample2PS.fx">
+      <Filter>Game\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\Sample2VS.fx">
+      <Filter>Game\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\SamplePS.fx">
+      <Filter>Game\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\SampleVS.fx">
+      <Filter>Game\Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Game\Object\Stage\StageBlock\StageStartPos.inc">
+      <Filter>Game\Object\Stage\StageBlock</Filter>
+    </None>
+    <None Include="src\Game\Object\Stage\StageBlock\StageEndPos.inc">
+      <Filter>Game\Object\Stage\StageBlock</Filter>
+    </None>
+    <None Include="src\Game\Object\Stage\SlowArea\SlowEndPos.inc">
+      <Filter>Game\Object\Stage\SlowArea</Filter>
+    </None>
+    <None Include="src\Game\Object\Stage\SlowArea\SlowStartPos.inc">
+      <Filter>Game\Object\Stage\SlowArea</Filter>
+    </None>
+    <None Include="src\Game\Object\Stage\TrapArea\TrapEndPos.inc">
+      <Filter>Game\Object\Stage\TrapArea</Filter>
+    </None>
+    <None Include="src\Game\Object\Stage\TrapArea\TrapStartPos.inc">
+      <Filter>Game\Object\Stage\TrapArea</Filter>
+    </None>
+  </ItemGroup>
+</Project>
